@@ -1,0 +1,9 @@
+﻿@{
+	ViewBag.Title = "Index";
+}
+
+<h2>@ViewBag.Title</h2>
+<ul>
+	<li>@Html.ActionLink("With Logging", "WithLogging") (working as expected)</li>
+	<li>@Html.ActionLink("Without Logging", "WithoutLogging") (not working as expected)</li>
+</ul>
